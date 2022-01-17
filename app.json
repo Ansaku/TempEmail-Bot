@@ -1,7 +1,7 @@
 {
 	"name": "TempEmail-Bot",
 	"description": "Bot telegram berorientasi python untuk menghasilkan Email sementara yang dikembangkan oleh @Ansaku dengan API dari https://www.1secmail.com",
-	"logo": "https://j.top4top.io/p_2092uhkq40.jpg",
+	"logo": "https://telegra.ph/file/729de788ea2e9df7957f4.jpg",
 	"repository": "https://github.com/Ansaku/TempEmail-Bot",
 	"env": {
 	},
