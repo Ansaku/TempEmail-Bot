@@ -77,9 +77,9 @@ while True:
                     msg = requests.get("https://www.1secmail.com/api/v1/?action=readMessage&login=" + email[:email.find(
                         "@")] + "&domain=" + email[email.find("@") + 1:] + "&id=" + id).json()
                     bot.send_message(message.chat.id,
-                                     'Pesan ✉️\n\n   Dari: ' + msg['dari'] + "\n   Subjek: " + msg[
-                                         'subjek'] + "\n   Tanggal: " + msg[
-                                         'tanggal'] + "\n   Teks: " + msg['textBody'])
+                                     'Pesan ✉️\n\n   Dari: ' + msg['from'] + "\n   Subjek: " + msg[
+                                         'subject'] + "\n   Tanggal: " + msg[
+                                         'date'] + "\n   Teks: " + msg['textBody'])
                 except BaseException:
                     pass
 
