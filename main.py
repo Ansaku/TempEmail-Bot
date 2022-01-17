@@ -1,4 +1,4 @@
-# copyright 2022-15 @Anki Satya
+# copyright 2022 @Ansaku
 # Telegram @AnkiSatya
 # Instagram @satya_ask
 import telebot
@@ -6,7 +6,7 @@ import requests
 from telebot.types import InlineKeyboardButton
 
 # Fillout Here The BotToken it gets from botfather further queries @AnkiSatya 0n telegram
-bot = telebot.TeleBot('5083286675:AAH0_9jpxi1pd_d-lVggs-G3R8Wt8qJemjw')
+bot = telebot.TeleBot('5090617847:AAGdVnas_9Mp2bkGwyWCIX1YRmtHRLntTQs')
 
 while True:
     try:
